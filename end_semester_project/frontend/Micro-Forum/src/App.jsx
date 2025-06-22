@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'mongodb://localhost:27017/test2'; // שנה לפי הצורך
+const API_URL = 'http://localhost:5000';
 
 function App() {
   const [token, setToken] = useState('');
