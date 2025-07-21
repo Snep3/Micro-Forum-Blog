@@ -4,6 +4,11 @@
 Our project is a simple forum site that lets users create posts and comment on them.
 
 ---
+add .env file in the `backend` file that contains:
+
+-PORT = (we set it to '5000')
+-MONGO_URI = (we set it to 'mongodb://localhost:27017/test2')
+-JWT_SECRET= secret123
 
 **Installing instructions:**  
 Open Compass and connect to port  
