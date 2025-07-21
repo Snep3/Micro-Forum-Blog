@@ -6,9 +6,12 @@ Our project is a simple forum site that lets users create posts and comment on t
 ---
 add .env file in the `backend` file that contains:
 
-- PORT = 5000
-- MONGO_URI = mongodb://localhost:27017/test2
-- JWT_SECRET= secret123
+```bash
+PORT = 5000
+MONGO_URI = mongodb://localhost:27017/test2
+JWT_SECRET= secret123
+#we are not sure what to write insted of 'secret123' but it works
+```
 
 **Installing instructions:**  
 Open Compass and connect to port  
