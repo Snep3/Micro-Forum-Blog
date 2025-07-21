@@ -1,0 +1,23 @@
+.btn_border{
+    border: 1px solid #17202f;
+}
+
+.posts_btn {
+    background-color: transparent;
+    color: #9bafcdff;
+    border: 0px solid transparent;
+}
+
+.publish_btn { 
+    
+    border-radius:10px !important;
+    background-color: #1f2c3f !important;
+    color: #9bafcdff !important;
+    border: none !important;
+} 
+.publish_btn:hover{
+    box-shadow: 0 0 10px 4px rgba(139, 179, 242, 0.1);
+    transition: box-shadow 0.9s ease-in-out;
+    transition: background-color 0.3s ease;
+}
+

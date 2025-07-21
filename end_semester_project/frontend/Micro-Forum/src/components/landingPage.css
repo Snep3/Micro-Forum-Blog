@@ -1,0 +1,32 @@
+input::placeholder {
+  color: rgb(82, 102, 133)
+}
+
+textarea::placeholder {
+  color: rgb(82, 102, 133)
+}
+
+.landing_btn { 
+    border-radius:10px !important;
+    background-color: #1f2c3f !important;
+    color: #9bafcdff !important;
+    border: none !important;
+} 
+.landing_btn:hover{
+    box-shadow: 0 0 10px 4px rgba(139, 179, 242, 0.1);
+    transition: box-shadow 0.9s ease-in-out;
+    transition: background-color 0.3s ease;
+}
+
+.message_success {
+  color: #5c875c;
+}
+
+.message_error {
+  color: #845151;
+}
+
+img {
+  max-width: 12%;
+  
+}
